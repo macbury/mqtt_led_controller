@@ -1,5 +1,6 @@
 # MqttLedController
 Control leds using https://home-assistant.io/components/light.mqtt_json/ and mqtt
+https://www.youtube.com/watch?v=V6dNrCIA-V0&spfreload=5
 
 # Installation
 
