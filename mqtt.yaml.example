@@ -1,0 +1,5 @@
+host: 192.168.1.172
+port: 1883
+username: "living_room_tv_ledstrip"
+password: "awesome_hard_pass"
+topic: 'home/living_room/tv_led_strip'

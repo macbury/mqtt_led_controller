@@ -1,0 +1,15 @@
+[Unit]
+Description=Led light controller
+After=network.target ntpdate.service
+
+[Service]
+Environment=PATH=/home/pi/mqtt_led_controller/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/usr/bin/python -u main.py
+WorkingDirectory=/home/pi/mqtt_led_controller
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
